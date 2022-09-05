@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html> 
+    <head> 
+       <title>Calculator</title>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+      </head>
+    <body> 
+       <div class="container" style="height:100%">
+          <div class="col-3 col-8" style="height: 100px;">
+
+            <!--textarea part-->
+            <div id="textarea" class="border border-black p-5 bg-primary" style="height:20%"></div>
+            
+            <!--calculator layout part with numbers-->
+            <div id="buttonarea" class="border border-black p-5 mt-3 bg-black">
+            <div class="row align-items-start">
+               <button class="button col m-1" onclick="calc(7)">7</button>
+               <button class="button col m-1" onclick="calc(8)">8</button>
+               <button class="button col m-1" onclick="calc(9)">9</button>
+               <button class="button col m-1" onclick="calc('*')">*</button>
+            </div>
+               <div class="row align-items-start">
+               <button class="button col m-1" onclick="calc(4)">4</button>
+               <button class="button col m-1" onclick="calc(5)">5</button>
+               <button class="button col m-1" onclick="calc(6)">6</button>
+               <button class="button col m-1" onclick="calc('-')">-</button>
+            </div>
+            <div class="row align-items-start">
+               <button class="button col m-1" onclick="calc(1)">1</button>
+               <button class="button col m-1" onclick="calc(2)">2</button>
+               <button class="button col m-1" onclick="calc(3)">3</button>
+               <button class="button col m-1" onclick="calc('+')">+</button>
+            </div>
+            <div class="row align-items-start">
+               <button class="button col m-1" onclick="calc(0)">0</button>
+               <button class="button col m-1" onclick="calc('.')">.</button>
+               <button class="button col m-1" onclick="calc('X')">Del</button>
+               <button class="button col m-1" onclick="calc('=')">=</button>
+            </div>
+            </div>
+          </div>
+       </div>
+  
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>
